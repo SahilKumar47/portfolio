@@ -1,4 +1,4 @@
-﻿import emoji from "react-easy-emoji";
+import emoji from "react-easy-emoji";
 
 const illustration = {
   animated: true, // set to false to use static SVG
@@ -8,9 +8,9 @@ const greeting = {
   username: "Sahil Kumar",
   title: "Hi all, I'm Sahil",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nextjs/ Nodejs /  and some other cool libraries and frameworks. Also a competitive programmer"
+    "Software Engineer with excellent problem solving skills and ability to perform well in team, Passionate about Full Stack Web Development and have experience of building Web applications with JavaScript, Nodejs, SpringBoot, Reactjs and some other cool libraries and frameworks"
   ),
-  resumeLink: "https://drive.google.com/file/d/1GiNZtIB8O-jpS9P3cuYOncfEjiXlGLfD/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1U82YFqIBgWGmHEXZBJgqXowpwRnmC9y5/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -18,13 +18,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/SahilKumar47",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/sahil-kumar-4a80581a0/",
   gmail: "sahilkumarpcm@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram and Twitter are also supported in the links!
   instagram: "https://www.instagram.com/sahilkumar7477/",
   display: true, // Set true to display this section, defaults to false
 };
@@ -33,17 +28,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE NEW TECH",
   skills: [
     emoji(
       "⚡ Develop interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Creating application backend in Node, Express & Graphql"),
+    emoji("⚡ Creating application backend in Node, Express & Graphql, SpringBoot"),
     emoji(
-      "⚡ I have worked on tech like MERN, MERNG, Nextjs, Typescript, ORMs"
+      "⚡ I have worked on tech like MERN, MERNG, SpringBoot, RabbitMQ, Pug, ORMs"
     ),
     emoji(
-      "⚡ 4 Star coder at CodeChef with max rating (1824) and max rating on Codeforces (1063)"
+      "⚡ Oracle Certified Associate Java Programmer"
     ),
     emoji(
       "⚡ Integration of third party services such as Firebase / Socket.io"
@@ -63,10 +58,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
       skillName: "bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap",
     },
@@ -75,12 +66,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js",
     },
     {
-      skillName: "reactjs",
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node",
+    },
+    {
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java",
     },
     {
       skillName: "npm",
@@ -120,7 +115,7 @@ const educationInfo = {
       logo: require("./assets/images/arsd.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2018 - July 2021",
-      desc: "Co Founder of a college startup (Du Unify)",
+      desc: "Grand CGPA 8.6",
       descBullets: [
         "Secured 1st position in college for academic year 2018-19",
         "Enthusiastic member of Sanganak Vimarsh (Computer Science Society)",
@@ -134,7 +129,7 @@ const educationInfo = {
       subHeader: "12th",
       duration: "2017-18 batch",
       desc:
-        "2nd rank in school in board exams with 93% Took subjects: Computer Science, Mathematics, Physics, Chemistry, English",
+        "1st rank in school in board exams with 93% Took subjects: Computer Science, Mathematics, Physics, Chemistry, English",
       descBullets: [
         "98% in Computer Science in boards, Participated in Hackathons, Olympiads",
       ],
@@ -148,16 +143,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "85%", //Insert relative proficiency in percentage
+      Stack: "Backend",
+      progressPercentage: "80%",
     },
     {
-      Stack: "Backend",
-      progressPercentage: "75%",
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%",
+      progressPercentage: "80%",
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -166,35 +161,19 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Yamaha Motor Solutions India",
+      companylogo: require("./assets/images/yamaha.jpg"),
+      date: "July 2021 – Present",
+      //desc: "Working with Yamaha Motor Corporation Japan on Machine Analytics web application developed with Nodejs, Javascript, Pug and Apex Charts",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Working with Yamaha Motor Corporation Japan on Machine Analytics web application developed with Nodejs, Javascript, Pug and Apex Charts. Responsible for developing modules of Backend and web screens of Frontend of the application, worked on server side rendering",
+        "Worked on the speedup of Yamaha's Material Information System which is build upon Express and Nodejs. Implemented high impact Distributed System to reduce load using Message Broker Software RabbitMQ and integrated In-memory Redis DB to provide faster response from the APIs, Improves the efficiency of the application by 55%",
+        "Developed a fully functional banking application as part of the java training with use cases of authentication, transactions, funds transfer, customer-employee record management. Technologies used under this project were Java, Spring Boot, Spring Security, JPA, MySQL."
       ],
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ],
 };
@@ -212,7 +191,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Personal Projects",
   subtitle: "Projects that are made during college period",
   projects: [
     {
@@ -278,6 +257,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Oracle Certified Associate Java Programmer",
+      subtitle:
+        "Certified by Oracle as Associate Java Programmer by obtaining good score in certification examination",
+      image: require("./assets/images/orcc.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://drive.google.com/file/d/1mrHyZsvG2eoIojSZKqA64gnl0EUY8kdB/view?usp=sharing",
+        },
+      ],
+    },
+    {
       title: "Microsoft Virtual Internship",
       subtitle:
         "Learned about Microsoft Azure, Business Foundation Skills and Design and Development workflow at Microsoft",
@@ -290,20 +282,6 @@ const achievementSection = {
         },
       ],
     },
-    {
-      title: "Coding Ninja Wave",
-      subtitle:
-        "Secured 2nd Rank in Coding contest organised by Coding Ninjas at Atma Ram Sanatan Dharma College",
-      image: require("./assets/images/codingninja.svg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url:
-            "https://drive.google.com/file/d/12kE4dPhFcdTy0D_veuVQRmv-ciYnCiiy/view?usp=sharing",
-        },
-      ],
-    },
-
     {
       title: "Javascript Developer",
       subtitle:
@@ -341,7 +319,7 @@ const blogSection = {
         "4 Star coder at Codechef with max rating 1824, Global Rank 15479, Country Rank 11783",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
